@@ -12,7 +12,7 @@ public class HomeController {
 		return "main-menu"; // Return the View Name. Spring searches for the path/parts that will make up the 
 							// complete path, put them together and return them (Prefix + view name + suffix). 
 							// In this case it will return /WEB-INF/view + /main-menu + .jsp
-							// /WEB-INF/view/main-menu.jsp
+							// So what gets returned as a full view name is /WEB-INF/view/main-menu.jsp
 	}
 
 }
