@@ -8,6 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
 @Controller
+@RequestMapping("/hello") // Added a "parent RequestMapping" to resolve conflict with same-name RequestMapping in SillyController class
 public class HelloWorldController {
 	
 	// Need a controller method to show the initial HTML form
