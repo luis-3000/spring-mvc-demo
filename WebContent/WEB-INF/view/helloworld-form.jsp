@@ -7,7 +7,9 @@
 	</head>
 
 	<body>
-		<form action="processForm" method="GET">
+	
+		<!--  Update the request mapping name -->
+		<form action="processFormVersionTwo" method="GET">
 		
 			<input type="text" name="studentName"
 				placeholder="Hey, what's your name?"/>
