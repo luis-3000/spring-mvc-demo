@@ -9,7 +9,7 @@
 	<body>
 	
 		<!--  Update the request mapping name -->
-		<form action="processFormVersionTwo" method="GET">
+		<form action="processFormVersionThree" method="GET">
 		
 			<input type="text" name="studentName"
 				placeholder="Hey, what's your name?"/>
