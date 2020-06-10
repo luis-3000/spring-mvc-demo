@@ -11,6 +11,8 @@ public class Student {
 	// List of country options
 	private LinkedHashMap<String, String> countryOptions;
 	
+	private String favoriteProgrammingLanguage;
+	
 	public Student() {
 		// populate country options: used ISO country code
 		countryOptions = new LinkedHashMap<>();
@@ -49,6 +51,15 @@ public class Student {
 	public LinkedHashMap<String, String> getCountryOptions() {
 		return countryOptions;
 	}
+
+	public String getFavoriteProgrammingLanguage() {
+		return favoriteProgrammingLanguage;
+	}
+
+	public void setFavoriteProgrammingLanguage(String favoriteProgrammingLanguage) {
+		this.favoriteProgrammingLanguage = favoriteProgrammingLanguage;
+	}
+	
 	
 	
 }

@@ -12,7 +12,13 @@
 			
 			<br><br>
 			
+			
 			Country: ${student.country}
+			
+			
+			<br><br>
+			
+			Favorite Programming Language: ${student.favoriteProgrammingLanguage}
 			
 		</body>
 		

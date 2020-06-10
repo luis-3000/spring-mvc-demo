@@ -34,6 +34,16 @@
 				
 				<br><br>
 				
+				Favorite Programming Language:
+				
+				<!-- On submit, Spring will call student.setFavoreProgrammingLanguage() -->
+				Java <form:radiobutton path="favoriteProgrammingLanguage" value="Java"/>
+				C# <form:radiobutton path="favoriteProgrammingLanguage" value="C#"/>
+				PHP <form:radiobutton path="favoriteProgrammingLanguage" value="PHP"/>
+				Ruby <form:radiobutton path="favoriteProgrammingLanguage" value="Ruby"/>
+				
+				<br><br>
+				
 				<input type="submit" value="Submit"/>
 				
 				
