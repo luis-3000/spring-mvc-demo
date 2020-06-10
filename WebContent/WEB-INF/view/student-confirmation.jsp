@@ -1,3 +1,4 @@
+<!-- Student confirmation page -->
 <!DOCTYPE html>
 
 	<html>

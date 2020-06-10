@@ -1,3 +1,4 @@
+<!-- student-form  HTML Form data  -->
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 
 <!DOCTYPE html>
@@ -10,9 +11,10 @@
 		
 		<body>
 			
+			<!-- Spring MVC Form tags -->
 			<form:form action="processForm" modelAttribute="student">
 				
-				First name: <form:input path="firstName"/>
+				First name: <form:input path="firstName"/> <!-- Property of 'student' class -->
 				
 				<br><br>
 				
