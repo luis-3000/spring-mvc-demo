@@ -15,7 +15,7 @@
 
 	<body>
 	
-		<i>Fill  out the form. Asterisk (*) means, the indicated field is required.</i>
+		<i>Fill  out the form. Asterisk (*) means the indicated field is required.</i>
 			
 		<br><br>
 			
