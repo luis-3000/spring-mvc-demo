@@ -28,7 +28,8 @@ public class Customer {
 	private String postalCode;
 	
 	// Custom annotation
-	@CourseCode(value="TOPS", message="must start with TOPS")
+	//@CourseCode(value="TOPS", message="must start with TOPS") // Handles single prefix value
+	@CourseCode(value={"TOPS", "LUV"}, message="must start with TOPS or LUV") // Handles multiple prefix values
 	private String courseCode;
 	
 	public String getFirstName() {

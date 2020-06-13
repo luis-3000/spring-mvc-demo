@@ -18,7 +18,8 @@ public @interface CourseCode {
 
 	// Define the attributes that we can pass into our annotation
 	// 1. Define default course code
-	public String value() default "LUV";
+	// public String value() default "LUV"; // Single default pre-fix
+	public String[] value() default {"LUV"}; // Multiple default pre-fix values
 	
 	// 2. Define default error message
 	public String message() default "must start with LUV";
